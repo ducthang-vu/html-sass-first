@@ -2,11 +2,16 @@ $main-color: red;
 $border-radius-10: 10px;
 
 h1 {
-    color: $main-color;
+    background-color: $main-color;
 }
 
 h2 {
-    background-color: $main-color;
+    background-color: rgba($main-color, 0.5);
+    color: $main-color;
+}
+
+h3 {
+    color: $main-color;
 }
 
 p {
