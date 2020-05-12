@@ -1,0 +1,15 @@
+$main-color: red;
+$border-radius-10: 10px;
+
+h1 {
+    color: $main-color;
+}
+
+h2 {
+    background-color: $main-color;
+}
+
+p {
+    border: 5px solid orange;
+    border-radius: $border-radius-10;
+}
